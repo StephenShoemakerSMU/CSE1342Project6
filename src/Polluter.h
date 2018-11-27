@@ -7,10 +7,10 @@ using namespace std;
 class Polluter{
   public:
 
-    virtual string getCarbonFootprint(){return "";};
-    virtual double calculateCarbonFootprint(){return -1.0;};
-    void outputCarbonFootprint(){ cout << getCarbonFootprint() << endl; };
-    virtual void inputData(){};
+    virtual string getCarbonFootprint();
+    virtual double calculateCarbonFootprint();
+    void outputCarbonFootprint();
+    virtual void inputData();
     ~Polluter();
 };
 
