@@ -8,9 +8,9 @@ class Vehicle:public Polluter{
   public:
     Vehicle (double, double);
     Vehicle();
-    string getCarbonFootprint();
-    void inputData();
-    double calculateCarbonFootprint();
+    virtual string getCarbonFootprint();
+    virtual void inputData();
+    virtual double calculateCarbonFootprint();
   private:
     double milesPerWeek;
     double fuelEfficiency;

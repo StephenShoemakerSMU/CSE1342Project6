@@ -8,9 +8,9 @@ class AirTravel:public Polluter{
   public:
     AirTravel(double);
     AirTravel();
-    string getCarbonfootprint();
-    void inputData();
-    double calculateCarbonFootprint();
+    virtual string getCarbonFootprint();
+    virtual void inputData();
+    virtual double calculateCarbonFootprint();
   private:
     double milesPerYear;
 };

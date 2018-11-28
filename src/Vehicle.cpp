@@ -14,7 +14,7 @@ Vehicle::Vehicle(){
 }
 
 string Vehicle::getCarbonFootprint(){
-  cout << "INHERE" << endl;
+  //cout << "INHERE" << endl;
   string output = "This vehicle produces ";
   output += to_string(calculateCarbonFootprint());
   output += " pounds of CO2 per year";

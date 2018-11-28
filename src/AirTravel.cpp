@@ -11,8 +11,8 @@ AirTravel::AirTravel(){
   milesPerYear = -1.0;
 }
 
-string AirTravel::getCarbonfootprint(){
-  cout << "INHERE" << endl;
+string AirTravel::getCarbonFootprint(){
+  //cout << "INHERE" << endl;
   string output = "This person produces ";
   output += to_string(calculateCarbonFootprint());
   output += " pounds of CO2 per year due to air travel";

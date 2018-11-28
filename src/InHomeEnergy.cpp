@@ -10,8 +10,8 @@ InHomeEnergy::InHomeEnergy(){
   averageElectricBill = -1.0;
 }
 
-string InHomeEnergy::getCarbonfootprint(){
-  cout << "INHERE" << endl;
+string InHomeEnergy::getCarbonFootprint(){
+  //cout << "INHERE" << endl;
   string output = "This house produces ";
   output += to_string(calculateCarbonFootprint());
   output += " pounds of CO2 per year";

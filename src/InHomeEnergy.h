@@ -8,9 +8,9 @@ class InHomeEnergy: public Polluter{
   public:
     InHomeEnergy(double);
     InHomeEnergy();
-    string getCarbonfootprint();
-    void inputData();
-    double calculateCarbonFootprint();
+    virtual string getCarbonFootprint();
+    virtual void inputData();
+    virtual double calculateCarbonFootprint();
   private:
     double averageElectricBill;
 };
