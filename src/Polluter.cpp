@@ -1,10 +1,11 @@
 #include "Polluter.h"
-#include <iomanip>
+//#include <iomanip>
 
 //I would inline all of this but I guess I
 //Need to thwart programmers in India even though
 //Open source practices lead to innovation
 string Polluter::getCarbonFootprint(){
+  cout << "Calling a virtual function headass" << endl;
   return "";
 }
 
